@@ -16,8 +16,52 @@ Functional Architecture: The graphical summary revealed an Sds3 (Sin3 histone de
 
 Biological TakeawaysBRMS1 plays a heavy-hitting role in cancer research—it actively suppresses tumor metastasis (the spread of cancer to other organs) without necessarily stopping the primary tumor from growing. Discovering the Sds3 domain in this region highlights how BRMS1 binds into the mSin3-HDAC corepressor complex, helping regulate gene silencing and chromatin remodeling.
 
+Figure 1: BLASTP search configuration in NCBI, running the 246 aa query against the human ClusteredNR database.
 <img width="1167" height="847" alt="Screenshot 2026-08-25 215636" src="https://github.com/user-attachments/assets/f1b15171-8983-467b-8277-933518dad2ee" />
 
+Figure 2: NCBI graphic summary showing uniform high-score hits across all three clusters and highlighting the conserved Sds3 superfamily domain (~residues 80–160).
 <img width="1172" height="667" alt="Screenshot 2026-08-25 221219" src="https://github.com/user-attachments/assets/04180522-85ce-46d1-bdee-fb06340382f8" />
 
+
+Raw BLAST Output
+Here is the exact output file exported from NCBI BLAST for reference and verification:
+
+Program: BLASTP 
+Query: unnamed protein product ID: lcl|Query_9732341(amino acid) Length: 246
+Database: ClusteredNR clustered nr
+
+Clusters producing significant alignments:
+Cluster Rep.: breast cancer metastasis-suppressor 1 isoform 2 [Homo sapiens]
+Accession: NP_001020128.1 | Max Score: 481 | Query Cover: 99% | E-value: 2e-173 | Identity: 100.00%
+
+>breast cancer metastasis-suppressor 1 isoform 2 [Homo sapiens]
+Sequence ID: NP_001020128.1 Length: 290
+Range 1: 1 to 244
+
+Score:481 bits(1237), Expect:2e-173, 
+Method:Compositional matrix adjust., 
+Identities:244/244(100%), Positives:244/244(100%), Gaps:0/244(0%)
+
+Query  1    MPVQPPSKDTEEMEAEGDSAAEMNGEEEESEEERSGSQTESEEESSEMDDEDYERRRSEC  60
+            MPVQPPSKDTEEMEAEGDSAAEMNGEEEESEEERSGSQTESEEESSEMDDEDYERRRSEC
+Sbjct  1    MPVQPPSKDTEEMEAEGDSAAEMNGEEEESEEERSGSQTESEEESSEMDDEDYERRRSEC  60
+
+Query  61   VSEMLDLEKQFSELKEKLFRERLSQLRLRLEEVGAERAPEYTEPLGGLQRSLKIRIQVAG  120
+            VSEMLDLEKQFSELKEKLFRERLSQLRLRLEEVGAERAPEYTEPLGGLQRSLKIRIQVAG
+Sbjct  61   VSEMLDLEKQFSELKEKLFRERLSQLRLRLEEVGAERAPEYTEPLGGLQRSLKIRIQVAG  120
+
+Query  121  IYKGFCLDVIRNKYECELQGAKQHLESEKLLLYDTLQGELQERIQRLEEDRQSLDLSSEW  180
+            IYKGFCLDVIRNKYECELQGAKQHLESEKLLLYDTLQGELQERIQRLEEDRQSLDLSSEW
+Sbjct  121  IYKGFCLDVIRNKYECELQGAKQHLESEKLLLYDTLQGELQERIQRLEEDRQSLDLSSEW  180
+
+Query  181  WDDKLHARGSSRSWDSLPPSKRKKAPLVSGPYIVYMLQEIDILEDWTAIKKARAAVSPQK  240
+            WDDKLHARGSSRSWDSLPPSKRKKAPLVSGPYIVYMLQEIDILEDWTAIKKARAAVSPQK
+Sbjct  181  WDDKLHARGSSRSWDSLPPSKRKKAPLVSGPYIVYMLQEIDILEDWTAIKKARAAVSPQK  240
+
+Query  241  RKSD  244
+            RKSD
+Sbjct  241  RKSD  244
+
+Summary
+Overall, this alignment confirms the sequence is human BRMS1 isoform 2. Identifying the Sds3 domain confirms its role in chromatin remodeling and helping stop cancer cells from spreading.
 
