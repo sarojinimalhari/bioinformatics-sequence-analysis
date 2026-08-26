@@ -1,5 +1,6 @@
 # bioinformatics-sequence-analysis
 Sequence alignment
+
 I ran an in silico protein analysis to identify an uncharacterized 246-amino-acid sequence and explore its structural features. Using NCBI’s BLASTP, I mapped the sequence against the human protein database to pinpoint its identity, check for evolutionary conservation, and see what functional domains it carries. 
 
 Step-by-Step WorkflowQuery Setup: 
@@ -14,7 +15,9 @@ Isoform Differences: Isoform X2 (XP_024304194.1) matched at 95.10% identity. Loo
 Functional Architecture: The graphical summary revealed an Sds3 (Sin3 histone deacetylase core complex component) superfamily domain spanning roughly residues 80 to 160.
 
 Biological TakeawaysBRMS1 plays a heavy-hitting role in cancer research—it actively suppresses tumor metastasis (the spread of cancer to other organs) without necessarily stopping the primary tumor from growing. Discovering the Sds3 domain in this region highlights how BRMS1 binds into the mSin3-HDAC corepressor complex, helping regulate gene silencing and chromatin remodeling.
+
 <img width="1167" height="847" alt="Screenshot 2026-08-25 215636" src="https://github.com/user-attachments/assets/f1b15171-8983-467b-8277-933518dad2ee" />
+
 <img width="1172" height="667" alt="Screenshot 2026-08-25 221219" src="https://github.com/user-attachments/assets/04180522-85ce-46d1-bdee-fb06340382f8" />
 
 
